@@ -8,14 +8,65 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    color: #3d4055
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#color-one {
+    background-color: #3d4055;
+}
+
+#color-two {
+    background-color: #63bfae;
+}
+
+#color-three {
+    background-color: #e8dbaa;
+}
+
+#color-four {
+    background-color: #f4b82b;
+}
+
+#color-five {
+    background-color: #ca303d;
 }
 
 /* headings */
+
+header {
+    background-color: #e8dbaa;
+}
 
 h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 230%;
     letter-spacing: 3px;
     text-align: center;
-    margin: 10px 0;
+    padding: 10px 0;
+    color: #ca303d;
+}
+
+#nav-menu li {
+    float: left;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+#nav-menu a {
+    font-size: 150%;
+    color: #ca303d;
+}
+
+#nav-menu a:hover {
+    color: #3d4055;
 }
