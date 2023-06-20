@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* headings */
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 230%;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 10px 0;
+}
