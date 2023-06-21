@@ -15,10 +15,11 @@ a {
     text-decoration: none;
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
+.color-block {
+    width: 20%;
+    height: 20px;
+    float: left;
+    box-sizing: border-box;
 }
 
 #color-one {
@@ -45,15 +46,22 @@ div {
 
 header {
     background-color: #e8dbaa;
+    height: 100px;
 }
 
-h1 {
+#logo {
+    display: flex;
+    justify-content: center;
     font-family: 'Abril Fatface', cursive;
     font-size: 230%;
     letter-spacing: 3px;
-    text-align: center;
     padding: 10px 0;
     color: #ca303d;
+}
+
+#nav-menu {
+    display: flex;
+    justify-content: center;
 }
 
 #nav-menu li {
@@ -69,4 +77,5 @@ h1 {
 
 #nav-menu a:hover {
     color: #3d4055;
+    font-size: 170%;
 }
