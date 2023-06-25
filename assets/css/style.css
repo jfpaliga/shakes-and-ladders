@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    color: #3d4055;
+}
+
 .color-block {
     width: 20%;
     height: 20px;
@@ -97,28 +101,20 @@ header {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    position: relative;
-}
-
-#hero-image {
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
-    height: 600px;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #intro-container {
     height: 200px;
-    width: 300 px;
-    background-color: #b1c8b3;
-    position: absolute;
-    bottom: 200px;
-    right: 40%;
-}
-
-#intro-container h2 {
-    color: #3d4055;
+    width: 33%;
+    background-color: rgba(177, 200, 179, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    border-radius: 30px;
 }
