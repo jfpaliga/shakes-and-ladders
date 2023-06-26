@@ -49,5 +49,5 @@ Write up GitHub deployment.
 ### Media
 
 <ul>
-    <li>The background image in the hero image section was taken from <a href="https://www.pexels.com/" target="_blank">Pexels</a>/li>
+    <li>The background image in the hero image section was taken from <a href="https://www.pexels.com/" target="_blank">Pexels</a></li>
 </ul>

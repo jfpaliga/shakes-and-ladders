@@ -124,3 +124,52 @@ header {
 #about-us {
     background-color: #fbfaf8;
 }
+
+#about-us h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#about-text {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-para {
+    height: 150px;
+    width: 40%;
+    background-color: rgba(177, 200, 179, 0.7);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-para p {
+    padding: 30px 20px 0 20px;
+}
+
+#event-link {
+    height: 50px;
+    width: 20%;
+    background-color: #c84741;
+    color: #fbfaf8;
+    border-radius: 30px;
+    border: 2px solid #c84741;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#event-link a {
+    color: inherit;
+}
+
+#event-link:hover {
+    background-color: #fbfaf8;
+    color: #c84741;
+}
