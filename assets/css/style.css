@@ -180,14 +180,23 @@ header {
 #milkshakes {
     height: 600px;
     background-color: #7ea390;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
 }
 
-#milkshakes-menu {
+#milkshake-menu {
     width: 33%;
+    color: #fbfaf8;
+    padding: 20px 20px;
 }
 
-#milkshakes img {
-    width: 33%;
+#milkshake-menu h2 {
+    color: inherit;
+}
+
+#milkshake-menu li {
+    list-style-type: none;
 }
 
 /* Footer */
