@@ -123,11 +123,12 @@ header {
 
 #about-us {
     background-color: #fbfaf8;
+    margin: 20px 0;
 }
 
 #about-us h2 {
-    padding: 20px 0;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 #about-text {
@@ -172,6 +173,21 @@ header {
 #event-link:hover {
     background-color: #fbfaf8;
     color: #c84741;
+}
+
+/* Milkshakes Front Page */
+
+#milkshakes {
+    height: 600px;
+    background-color: #7ea390;
+}
+
+#milkshakes-menu {
+    width: 33%;
+}
+
+#milkshakes img {
+    width: 33%;
 }
 
 /* Footer */
