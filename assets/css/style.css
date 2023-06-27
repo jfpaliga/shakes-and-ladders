@@ -173,3 +173,18 @@ header {
     background-color: #fbfaf8;
     color: #c84741;
 }
+
+/* Footer */
+
+footer {
+    height: 75px;
+    background-color: #8a6f5a;
+    color: #fbfaf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: inherit;
+}
