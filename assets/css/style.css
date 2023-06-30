@@ -19,33 +19,6 @@ h2 {
     color: #3d4055;
 }
 
-.color-block {
-    width: 20%;
-    height: 20px;
-    float: left;
-    box-sizing: border-box;
-}
-
-#color-one {
-    background-color: #fbfaf8;
-}
-
-#color-two {
-    background-color: #b1c8b3;
-}
-
-#color-three {
-    background-color: #7ea390;
-}
-
-#color-four {
-    background-color: #8a6f5a;
-}
-
-#color-five {
-    background-color: #c84741;
-}
-
 /* headings */
 
 header {
@@ -55,7 +28,6 @@ header {
 
 #header-bar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
     margin: 5px 1%;
@@ -84,15 +56,21 @@ header {
 }
 
 #logo-div {
+    width: 33%;
     order: 0;
+    text-align: center
 }
 
 #nav-div {
+    width: 33%;
     order: -1;
 }
 
 #social-div {
+    width: 33%;
     order: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Hero Image */
