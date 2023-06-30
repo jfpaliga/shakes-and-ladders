@@ -176,6 +176,7 @@ header {
     color: inherit;
     font-size: 200%;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 #milkshake-menu li {
@@ -201,4 +202,18 @@ footer {
 
 footer a {
     color: inherit;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1400px) {
+
+    #logo {
+        font-size: 100%;
+    }
+
+    #nav-menu {
+        font-size: 80%;
+    }
+
 }
