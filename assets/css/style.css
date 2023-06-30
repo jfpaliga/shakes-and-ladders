@@ -189,14 +189,25 @@ header {
     width: 33%;
     color: #fbfaf8;
     padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #milkshake-menu h2 {
     color: inherit;
+    font-size: 200%;
+    padding-bottom: 30px;
 }
 
 #milkshake-menu li {
     list-style-type: none;
+    text-align: center;
+    font-size: 140%;
+}
+
+#milkshake-menu li:nth-child(2n) {
+    padding-bottom: 20px;
 }
 
 /* Footer */
