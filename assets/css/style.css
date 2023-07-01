@@ -236,4 +236,14 @@ footer a {
         max-height: 300px;
     }
 
+    #milkshakes {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .milk-image source,
+    .milk-image img {
+        border-radius: 20px;
+    }
+
 }
