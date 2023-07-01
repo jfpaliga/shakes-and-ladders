@@ -165,6 +165,13 @@ header {
     flex-flow: row nowrap;
 }
 
+.milk-image {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    max-height: 600px;
+}
+
 #milkshake-menu {
     width: 33%;
     color: #fbfaf8;
@@ -216,6 +223,17 @@ footer a {
 
     #nav-menu {
         font-size: 80%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .milk-image {
+        width: 100%;
+        max-width: 225px;
+        height: auto;
+        max-height: 300px;
     }
 
 }
