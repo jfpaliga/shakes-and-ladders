@@ -27,6 +27,7 @@ header {
 }
 
 #header-bar {
+    height: 75px;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -88,7 +89,7 @@ header {
 
 #intro-container {
     height: 200px;
-    width: 33%;
+    width: 40%;
     background-color: rgba(177, 200, 179, 0.7);
     display: flex;
     justify-content: center;
@@ -117,22 +118,23 @@ header {
 }
 
 .about-para {
-    height: 150px;
+    height: 200px;
     width: 40%;
     background-color: rgba(177, 200, 179, 0.7);
     border-radius: 30px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .about-para p {
-    padding: 30px 20px 0 20px;
+    padding: 20px 20px 0 20px;
 }
 
-#event-link {
-    height: 50px;
-    width: 20%;
+.about-link {
+    height: 20px;
+    width: 33%;
     background-color: #c84741;
     color: #fbfaf8;
     border-radius: 30px;
@@ -144,11 +146,11 @@ header {
     padding: 10px;
 }
 
-#event-link a {
+.about-link a {
     color: inherit;
 }
 
-#event-link:hover {
+.about-link:hover {
     background-color: #fbfaf8;
     color: #c84741;
 }
