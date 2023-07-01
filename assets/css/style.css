@@ -247,3 +247,46 @@ footer a {
     }
 
 }
+
+@media screen and (max-width: 1000px) {
+
+    #logo {
+        font-size: 90%;
+    }
+
+    #nav-menu {
+        font-size: 75%;
+    }
+
+    .links-list li {
+        padding: 0 5px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    body {
+        font-size: 90%;
+    }
+
+    #logo {
+        font-size: 70%;
+    }
+
+    .links-list {
+        font-size: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #intro-container {
+        width: 60%;
+    }
+
+    #milkshakes {
+        height: 500px;
+    }
+
+}
