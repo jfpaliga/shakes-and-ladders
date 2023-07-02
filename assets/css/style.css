@@ -121,7 +121,7 @@ header {
     height: 200px;
     width: 40%;
     background-color: rgba(177, 200, 179, 0.7);
-    border-radius: 30px;
+    border-radius: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -262,6 +262,10 @@ footer a {
         padding: 0 5px;
     }
 
+    #intro-container {
+        width: 50%;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -302,6 +306,31 @@ footer a {
 
     .milk-image {
         display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #intro-container {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #about-text {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-para {
+        width: 80%;
+        margin: 1% 0;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
 }
