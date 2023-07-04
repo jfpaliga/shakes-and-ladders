@@ -219,16 +219,26 @@ footer a {
 .events-section {
     height: 600px;
     width: 50%;
+    position: relative;
     float: left;
     display: flex;
     align-items: center;
     background-color: #fbfaf8;
 }
 
+#major-events {
+    flex-direction: column;
+}
+
 .events-div {
     width: 100%;
     display: flex;
     align-items: center;
+}
+
+#major-events-div {
+    position: absolute;
+    top: 200px;
 }
 
 #about-events-text {
@@ -251,6 +261,23 @@ footer a {
 
 #mid-event {
     background-color: #fbfaf8;
+}
+
+#event-calendar>h2 {
+    text-align: center;
+}
+
+#calendar-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.month {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* media queries */
