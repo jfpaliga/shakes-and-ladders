@@ -74,7 +74,7 @@ header {
     justify-content: flex-end;
 }
 
-/* Hero Image */
+/* hero image */
 
 #hero-outer {
     height: 600px;
@@ -98,7 +98,7 @@ header {
     border-radius: 30px;
 }
 
-/* About section */
+/* about section */
 
 #about-us {
     background-color: #fbfaf8;
@@ -155,7 +155,7 @@ header {
     color: #c84741;
 }
 
-/* Milkshakes Front Page */
+/* milkshakes menu */
 
 #milkshakes {
     height: 600px;
@@ -198,7 +198,7 @@ header {
     padding-bottom: 20px;
 }
 
-/* Footer */
+/* footer */
 
 footer {
     height: 75px;
@@ -213,7 +213,25 @@ footer a {
     color: inherit;
 }
 
-/* Media queries */
+/* about events */
+
+#about-events-section {
+    height: 600px;
+    width: 50%;
+}
+
+#about-events {
+    display: flex;
+    align-items: center;
+}
+
+#about-events-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* media queries */
 
 @media screen and (max-width: 1400px) {
 
