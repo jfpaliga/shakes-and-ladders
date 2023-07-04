@@ -207,6 +207,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    clear: both;
 }
 
 footer a {
@@ -215,12 +216,17 @@ footer a {
 
 /* about events */
 
-#about-events-section {
+.events-section {
     height: 600px;
     width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    background-color: #fbfaf8;
 }
 
-#about-events {
+.events-div {
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -229,6 +235,22 @@ footer a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.event {
+    height: 200px;
+    width: 33%;
+    background-color: #7ea390;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mid-event {
+    background-color: #fbfaf8;
 }
 
 /* media queries */
