@@ -230,15 +230,14 @@ footer a {
     flex-direction: column;
 }
 
+#major-events h2 {
+    padding: 3%;
+}
+
 .events-div {
     width: 100%;
     display: flex;
     align-items: center;
-}
-
-#major-events-div {
-    position: absolute;
-    top: 200px;
 }
 
 #about-events-text {
@@ -246,11 +245,16 @@ footer a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 3%;
+}
+
+#about-events-text h2 {
+    padding: 3%;
 }
 
 .event {
-    height: 200px;
-    width: 33%;
+    height: 25%;
+    width: 100%;
     background-color: #7ea390;
     box-sizing: border-box;
     display: flex;
@@ -278,6 +282,10 @@ footer a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.month li {
+    list-style-type: none;
 }
 
 /* media queries */
