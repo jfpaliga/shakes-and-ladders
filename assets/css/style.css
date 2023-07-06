@@ -267,13 +267,14 @@ footer a {
     background-color: #fbfaf8;
 }
 
-#event-calendar>h2 {
-    text-align: center;
+#calendar-title {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
 }
 
 #calendar-div {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -284,8 +285,13 @@ footer a {
     align-items: center;
 }
 
+.month h3 {
+    padding-bottom: 2%;
+}
+
 .month li {
     list-style-type: none;
+    padding: 5px;
 }
 
 /* media queries */
