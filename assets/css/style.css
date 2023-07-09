@@ -279,10 +279,14 @@ footer a {
     scroll-behavior: smooth;
 }
 
+#event-slider::-webkit-scrollbar {
+    display: none;
+}
+
 .event {
     scroll-snap-align: start;
     flex-shrink: 0;
-    width: 80%;
+    width: 100%;
     margin-right: 50px;
     background-color: rgba(177, 200, 179, 0.7);
     transform-origin: center center;
@@ -294,6 +298,13 @@ footer a {
     align-items: center;
     flex-direction: column;
 }
+
+#slider-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #calendar-title {
     display: flex;
