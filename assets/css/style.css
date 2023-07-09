@@ -227,14 +227,6 @@ footer a {
     margin-bottom: 1%;
 }
 
-#major-events {
-    flex-direction: column;
-}
-
-#major-events h2 {
-    padding: 3%;
-}
-
 .events-div {
     width: 100%;
     display: flex;
@@ -253,6 +245,7 @@ footer a {
     padding: 3%;
 }
 
+/*
 .event {
     height: 25%;
     width: 100%;
@@ -266,6 +259,40 @@ footer a {
 
 #mid-event {
     background-color: #fbfaf8;
+}
+*/
+
+#major-events {
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#major-events h2 {
+    padding: 3%;
+}
+
+#event-slider {
+    height: 60%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.event {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 80%;
+    margin-right: 50px;
+    background-color: rgba(177, 200, 179, 0.7);
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #calendar-title {
