@@ -41,6 +41,8 @@ Write up GitHub deployment.
 
 ## Credits
 
+CSS code for carousel on the Events page was taken from [css-tricks.com](https://css-tricks.com/css-only-carousel/).
+
 ### Content
 
 <ul>
@@ -49,5 +51,6 @@ Write up GitHub deployment.
 ### Media
 
 <ul>
-    <li>The background image in the hero image section was taken from <a href="https://www.pexels.com/" target="_blank">Pexels</a></li>
+    <li>The background image in the hero image section and the milkshake images were taken from <a href="https://www.pexels.com/" target="_blank">Pexels</a>.</li>
+    <li>The image on the events page was taken from <a href="https://unsplash.com/" target ="_blank">Unsplash</a>.</li>
 </ul>
