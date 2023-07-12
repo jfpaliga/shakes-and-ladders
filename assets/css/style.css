@@ -234,12 +234,21 @@ footer a {
     align-items: center;
 }
 
+#game-pieces-img {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    max-height: 600px;
+}
+
 #about-events-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 3%;
+    max-height: 80%;
+    text-align: center;
 }
 
 #about-events-text h2 {
@@ -279,7 +288,7 @@ footer a {
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 100%;
-    margin-right: 50px;
+    margin: 0 10%;
     background-color: rgba(177, 200, 179, 0.7);
     transform-origin: center center;
     transform: scale(1);
@@ -384,6 +393,23 @@ footer a {
     .milk-image source,
     .milk-image img {
         border-radius: 20px;
+    }
+
+    .events-section {
+        height: 600px;
+        width: 100%;
+        /*
+        position: relative;
+        float: left;
+        display: flex;
+        align-items: center;
+        background-color: #fbfaf8;
+        margin-bottom: 1%;
+        */
+    }
+
+    .month li {
+        font-size: 90%;
     }
 
 }
