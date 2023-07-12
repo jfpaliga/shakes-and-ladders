@@ -285,9 +285,9 @@ footer a {
 }
 
 .event {
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     flex-shrink: 0;
-    width: 100%;
+    width: 90%;
     margin: 0 10%;
     background-color: rgba(177, 200, 179, 0.7);
     transform-origin: center center;
@@ -396,16 +396,7 @@ footer a {
     }
 
     .events-section {
-        height: 600px;
         width: 100%;
-        /*
-        position: relative;
-        float: left;
-        display: flex;
-        align-items: center;
-        background-color: #fbfaf8;
-        margin-bottom: 1%;
-        */
     }
 
     .month li {
@@ -497,6 +488,18 @@ footer a {
     footer {
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+
+    #calendar-div {
+        flex-wrap: wrap;
+    }
+
+    .month {
+        min-width: 100px;
+    }
+
+    .month li {
+        font-size: 80%;
     }
 
 }
