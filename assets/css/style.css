@@ -362,6 +362,17 @@ footer a {
     padding: 5px;
 }
 
+/* bookings page */
+
+#location {
+    height: 400px;
+}
+
+#location-map {
+    width: 50%;
+    height: 100%;
+}
+
 /* media queries */
 
 @media screen and (max-width: 1400px) {
