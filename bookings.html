@@ -89,17 +89,35 @@
 
             <label for="form-date">Date attending:</label>
             <input id="form-date" type="date" name="date" min="2023-01-01" max="2023-12-31" required>
+
+            <label for="form-event-consent">I wish to be contacted by Shakes & Ladders in relation to events at the
+                store: </label>
+            <input id="form-event-consent" type="checkbox" name="event-consent">
+
+            <label for="form-offers-consent">I wish to be contacted by Shakes & Ladders in relation to special offers at
+                the store: </label>
+            <input id="form-offers-consent" type="checkbox" name="offers-consent">
+
+            <label for="form-comments">Additional comments:</label>
+            <textarea id="form-comments" name="comments" rows="10" columns="100"></textarea>
+
+            <button type="submit">Send!</button>
         </form>
     </section>
 
     <!-- Map and Directions -->
-    <section>
+    <section id="map-and-directions">
         <div id="location">
             <iframe id="location-map"
                 src="https://www.google.com/maps/embed/v1/place?q=110-2+Low+Pavement,+Nottingham+NG1+7DL&key=AIzaSyC1F8CLzI09ASQjNP4-0B-h_PpLxdYR-W8"
                 title="the location of shakes and ladders on google maps"></iframe>
         </div>
 
+        <div id="location-instructions">
+            <p>
+                Shakes & Ladders is located at 110-2 Low Pavement, Nottingham.
+            </p>
+        </div>
     </section>
 
     <!-- Footer -->

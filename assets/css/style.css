@@ -384,13 +384,21 @@ footer a {
 
 /* bookings page */
 
+#map-and-directions {
+    display: flex;
+}
+
 #location {
-    height: 400px;
+    height: 600px;
 }
 
 #location-map {
     width: 50%;
     height: 100%;
+}
+
+#location-instructions {
+    width: 50%;
 }
 
 /* media queries */
