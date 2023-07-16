@@ -272,6 +272,22 @@ footer a {
     text-align: center;
 }
 
+.game-link {
+    background-color: #c84741;
+    color: #fbfaf8;
+    border-radius: 30px;
+    border: 2px solid #c84741;
+}
+
+.game-link a {
+    color: inherit;
+}
+
+.game-link:hover {
+    background-color: #fbfaf8;
+    color: #c84741;
+}
+
 #event-slider {
     height: 60%;
     display: flex;
@@ -298,6 +314,7 @@ footer a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: solid #c84741;
     border-radius: 2%;
 }
 
@@ -313,12 +330,18 @@ footer a {
 }
 
 #slider-nav li {
-    width: 20px;
-    height: 20px;
-    background-color: #7ea390;
     margin: 10px;
-    border-radius: 10px;
     list-style-type: none;
+}
+
+.slider-link {
+    color: #c84741;
+}
+
+.slider-link :hover {
+    color: #fbfaf8;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #c84741;
 }
 
 /* event calendar */
