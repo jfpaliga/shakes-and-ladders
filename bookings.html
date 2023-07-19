@@ -72,11 +72,11 @@
     <!-- Booking Form -->
     <section id="booking-form">
         <form action="#" method="post">
-            <input id="form-name" class="form-input" type="text" name="name" placeholder="Name" required>
-            <input id="form-email" class="form-input" type="email" name="email" placeholder="Email" required>
+            <input id="form-name" class="form-contact-details" type="text" name="name" placeholder="Name" required>
+            <input class="form-contact-details" type="email" name="email" placeholder="Email" required>
 
-            <p class="form-input">How many are in your party?</p>
-            <fieldset class="form-input">
+            <fieldset id="form-party-size" class="form-input">
+                <legend>How many are in your party?</legend>
                 <label for="form-party-one">1</label>
                 <input id="form-party-one" type="radio" name="party-size" value="1" required>
                 <label for="form-party-two">2-4</label>
@@ -87,23 +87,30 @@
                 <input id="form-party-four" type="radio" name="party-size" value="8+">
             </fieldset>
 
-            <label for="form-date" class="form-input">Date attending:</label>
-            <input id="form-date" class="form-input" type="date" name="date" min="2023-01-01" max="2023-12-31" required>
+            <div class="form-input">
+                <label for="form-date">Date attending:</label>
+                <input id="form-date" type="date" name="date" min="2023-01-01" max="2023-12-31" required>
+            </div>
 
-            <label for="form-event-consent" class="form-input">I wish to be contacted by Shakes & Ladders in relation to
-                events at the
-                store: </label>
-            <input id="form-event-consent" class="form-input" type="checkbox" name="event-consent">
+            <div class="form-input">
+                <label for="form-event-consent">I wish to be contacted by Shakes & Ladders in relation to events at the
+                    store: </label>
+                <input id="form-event-consent" type="checkbox" name="event-consent">
+            </div>
 
-            <label for="form-offers-consent" class="form-input">I wish to be contacted by Shakes & Ladders in relation
-                to special offers at
-                the store: </label>
-            <input id="form-offers-consent" class="form-input" type="checkbox" name="offers-consent">
+            <div class="form-input">
+                <label for="form-offers-consent">I wish to be contacted by Shakes & Ladders in relation to special
+                    offers at the store: </label>
+                <input id="form-offers-consent" type="checkbox" name="offers-consent">
+            </div>
 
-            <label for="form-comments" class="form-input">Additional comments:</label>
-            <textarea id="form-comments" class="form-input" name="comments" rows="10" columns="50"></textarea>
+            <div id="form-comments" class="form-input">
+                <label for="comment-box">Additional comments:</label>
+                <textarea id="comment-box" name="comments"></textarea>
+            </div>
 
             <button type="submit" id="form-submit">Send!</button>
+
         </form>
     </section>
 

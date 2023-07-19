@@ -1,6 +1,6 @@
 # Shakes and Ladders
 
-The [Shakes and Ladders](https://url-to-go-here) website is a page built for a board games store located in Nottingham. The website advertises
+The [Shakes and Ladders](https://jfpaliga.github.io/shakes-and-ladders/) website is a page built for a board games store located in Nottingham. The website advertises
 the store and provides information to potential customers.
 
 External users of this website will be able to learn more information about the store, what they can do at the store and they can look at a calendar to
