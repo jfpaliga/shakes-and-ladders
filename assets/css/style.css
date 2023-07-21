@@ -491,7 +491,7 @@ form {
 .info-text {
     height: 33%;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     margin: 10px;
@@ -609,47 +609,62 @@ form {
         display: none;
     }
 
-}
-
-@media screen and (max-width: 600px) {
-
-    #intro-container {
-        flex-direction: column;
-        justify-content: space-evenly;
+    #booking-form form {
+        width: 75%;
     }
 
-    #about-text {
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    @media screen and (max-width: 600px) {
+
+        #intro-container {
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        #about-text {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .about-para {
+            width: 80%;
+            margin: 1% 0;
+        }
+
+        footer {
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        #calendar-div {
+            flex-wrap: wrap;
+        }
+
+        .month {
+            min-width: 100px;
+        }
+
+        .month li {
+            font-size: 80%;
+        }
+
+        #comment-box {
+            height: 150px;
+            width: 200px;
+        }
+
+        .info-text h2 {
+            font-size: 105%;
+        }
+
+        .info-text p {
+            font-size: 85%;
+        }
+
     }
 
-    .about-para {
-        width: 80%;
-        margin: 1% 0;
+    @media screen and (max-width: 400px) {
+        body {
+            font-size: 80%;
+        }
     }
-
-    footer {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-    #calendar-div {
-        flex-wrap: wrap;
-    }
-
-    .month {
-        min-width: 100px;
-    }
-
-    .month li {
-        font-size: 80%;
-    }
-
-}
-
-@media screen and (max-width: 400px) {
-    body {
-        font-size: 80%;
-    }
-}
