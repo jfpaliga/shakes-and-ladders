@@ -506,6 +506,27 @@ form {
     padding-top: 10px;
 }
 
+/* form complete page */
+
+#form-thanks {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fbfaf8;
+    text-align: center;
+}
+
+#form-thanks h2 {
+    text-transform: uppercase;
+    font-size: 200%;
+}
+
+#form-thanks p {
+    padding: 0 20px 0 20px;
+}
+
 /* media queries */
 
 @media screen and (max-width: 1400px) {
