@@ -12,24 +12,28 @@ to book out seats at the store to generate revenue.
 
 ## Features
 
-<ul>
-    <li>Navigation</li>
-    <li>Hero Image</li>
-    <li>About Us</li>
-    <li>Events</li>
-    <li>Menu</li>
-    <li>Booking</li>
-</ul>
+- Navigation
+- Hero Image
+- About Us
+- Events
+- Menu
+- Booking
 
 ## Testing
 
--Check different browsers and responsive design.
--Check readability.
--Check links.
--Check form entry.
--Check HTML validator.
--Check CSS validator.
--Check Accessiblity ie Lighthouse.
+- Check different browsers and responsive design.
+- Check readability.
+- Check links.
+- Check form entry.
+- Check HTML validator.
+- Check CSS validator.
+- Check Accessiblity ie Lighthouse.
+
+  - I confirmed the accessibility of all website pages was good via the use of Lighthouse in the dev tools.
+
+  ![Screenshot of the Lighthouse result from the index page.](assets/images/lighthouse-index.png)
+  ![Screenshot of the Lighthouse result from the events page.](assets/images/lighthouse-events.png)
+  ![Screenshot of the Lighthouse result from the bookings page.](assets/images/lighthouse-bookings.png)
 
 ## Bugs
 
