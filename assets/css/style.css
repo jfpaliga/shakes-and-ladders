@@ -167,10 +167,9 @@ header {
 }
 
 .milk-image {
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    max-height: 600px;
+    width: 450px;
+    height: 600px;
+    overflow: hidden;
 }
 
 #milkshake-menu {
@@ -192,7 +191,7 @@ header {
 #milkshake-menu li {
     list-style-type: none;
     text-align: center;
-    font-size: 140%;
+    font-size: 120%;
 }
 
 #milkshake-menu li:nth-child(2n) {
@@ -622,7 +621,7 @@ form {
     #milkshakes {
         height: 500px;
         overflow: hidden;
-        background: url('../images/milkshake-background.webp') no-repeat center center;
+        background: url('../images/milkshakes-background.webp') no-repeat center center;
         background-size: cover;
     }
 
