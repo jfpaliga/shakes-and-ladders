@@ -126,6 +126,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .about-para p {
@@ -268,24 +269,9 @@ footer a {
 }
 
 #major-events p {
+    margin: 0 10px 0 10px;
     padding: 2%;
     text-align: center;
-}
-
-.game-link {
-    background-color: #c84741;
-    color: #fbfaf8;
-    border-radius: 30px;
-    border: 2px solid #c84741;
-}
-
-.game-link a {
-    color: inherit;
-}
-
-.game-link:hover {
-    background-color: #fbfaf8;
-    color: #c84741;
 }
 
 #event-slider {
@@ -342,6 +328,25 @@ footer a {
     color: #fbfaf8;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #c84741;
+}
+
+.game-link {
+    height: auto;
+    width: 80%;
+    background-color: #c84741;
+    color: #fbfaf8;
+    border-radius: 30px;
+    border: 2px solid #c84741;
+    margin: 0 10px 0 10px;
+}
+
+.game-link a {
+    color: inherit;
+}
+
+.game-link:hover {
+    background-color: #fbfaf8;
+    color: #c84741;
 }
 
 /* event calendar */
@@ -495,6 +500,7 @@ form {
     align-items: center;
     justify-content: center;
     margin: 10px;
+    text-align: center;
 }
 
 .info-text h2 {
