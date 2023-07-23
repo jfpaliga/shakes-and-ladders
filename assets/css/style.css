@@ -613,58 +613,60 @@ form {
         width: 75%;
     }
 
-    @media screen and (max-width: 600px) {
+}
 
-        #intro-container {
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
+@media screen and (max-width: 600px) {
 
-        #about-text {
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        .about-para {
-            width: 80%;
-            margin: 1% 0;
-        }
-
-        footer {
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-        }
-
-        #calendar-div {
-            flex-wrap: wrap;
-        }
-
-        .month {
-            min-width: 100px;
-        }
-
-        .month li {
-            font-size: 80%;
-        }
-
-        #comment-box {
-            height: 150px;
-            width: 200px;
-        }
-
-        .info-text h2 {
-            font-size: 105%;
-        }
-
-        .info-text p {
-            font-size: 85%;
-        }
-
+    #intro-container {
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
-    @media screen and (max-width: 400px) {
-        body {
-            font-size: 80%;
-        }
+    #about-text {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
+
+    .about-para {
+        width: 80%;
+        margin: 1% 0;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #calendar-div {
+        flex-wrap: wrap;
+    }
+
+    .month {
+        min-width: 100px;
+    }
+
+    .month li {
+        font-size: 80%;
+    }
+
+    #comment-box {
+        height: 150px;
+        width: 200px;
+    }
+
+    .info-text h2 {
+        font-size: 105%;
+    }
+
+    .info-text p {
+        font-size: 85%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 80%;
+    }
+}
