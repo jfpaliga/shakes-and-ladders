@@ -25,9 +25,21 @@ to book out seats at the store to generate revenue.
 - Check readability.
 - Check links.
 - Check form entry.
-- Check HTML validator.
-- Check CSS validator.
-- Check Accessiblity ie Lighthouse.
+
+### Validator Testing
+
+- HTML
+
+  - No errors were returned when passing through the official W3C validator.
+  - One warning was given regarding the use of a section with no heading, however as all the content within the section was related I believe it is still the appropriate semantic element to use.
+
+  ![Screenshot of the W3C warning about no heading in a section](assets/images/w3-html-warning.png)
+
+- CSS
+
+  - No errors were returned when passing through the official W3C Jigsaw validator.
+
+- Accessiblity
 
   - I confirmed the accessibility of all website pages was good via the use of Lighthouse in the dev tools.
 
@@ -49,12 +61,7 @@ CSS code for carousel on the Events page was taken from [css-tricks.com](https:/
 
 ### Content
 
-<ul>
-</ul>
-
 ### Media
 
-<ul>
-    <li>The background image in the hero image section and the milkshake images were taken from <a href="https://www.pexels.com/" target="_blank">Pexels</a>.</li>
-    <li>The image on the events page was taken from <a href="https://unsplash.com/" target ="_blank">Unsplash</a>.</li>
-</ul>
+- The background image in the hero image section and the milkshake images were taken from [Pexels](https://www.pexels.com/)
+- The images on the events and booking pages were taken from [Unsplash](https://unsplash.com/)
