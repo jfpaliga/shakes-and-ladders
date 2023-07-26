@@ -61,6 +61,8 @@ to book out seats at the store to generate revenue.
 
 Fixed and unfixed.
 
+z-index on events page breaking links
+
 ## Deployment
 
 Write up GitHub deployment.
