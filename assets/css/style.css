@@ -286,6 +286,8 @@ footer a {
     text-align: center;
 }
 
+/* see readme for source of carousel code taken from css-tricks */
+
 #event-slider {
     height: 60%;
     display: flex;
@@ -315,6 +317,8 @@ footer a {
     border: solid #c84741;
     border-radius: 2%;
 }
+
+/* end of code taken from css-tricks */
 
 .event h2 {
     text-transform: uppercase;
@@ -661,6 +665,8 @@ form {
 
 @media screen and (max-width: 600px) {
 
+    /* see readme for source of hamburger menu code taken from alvarotrigo */
+
     #nav-div input[type="checkbox"],
     #hamburger-menu {
         display: block;
@@ -713,6 +719,8 @@ form {
     #nav-div input[type="checkbox"]:checked~#nav-menu {
         transform: translateX(0);
     }
+
+    /* end of code taken from alvarotrigo */
 
     #intro-container {
         flex-direction: column;
