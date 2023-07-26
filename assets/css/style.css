@@ -79,6 +79,14 @@ header {
     justify-content: flex-end;
 }
 
+#social-links {
+    font-size: 140%;
+}
+
+#social-links li {
+    padding-left: 15px;
+}
+
 /* hero image */
 
 #hero-outer {
