@@ -10,6 +10,8 @@ at the store through a booking form.
 The goal for the owner of the site is to advertise the store and increase awareness, attract new customers and retain customers with interesting events and
 to book out seats at the store to generate revenue.
 
+The target audience would be those with an interest in board games who are looking for a friendly environment to play in and for those that would have enough of an interest to attend regular events.
+
 ![Screenshot from amiresponsive of the website on different media devices](assets/images/amiresponsive.png)
 
 ## Features
