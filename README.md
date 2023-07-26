@@ -23,11 +23,69 @@ to book out seats at the store to generate revenue.
 
 ![Screenshot of the website navigation bar](assets/images/nav-bar.png)
 
-- Hero Image
-- About Us
-- Events
+- Landing Image
+
+  - User is greeted with an eye-catching image on the landing page with elements familiar to those who enjoy playing board games.
+  - A brief introductory statement is provided to let the user know where they are and what the business offers.
+
+![Screenshot of the landing image](assets/images/landing-image.png)
+
+- What is Shakes & Ladders?
+
+  - This section offers a little more information about the business.
+  - The section is broken into two divisions, on the left a general statement about the business ethos and what the business does, and on the right a statement introducing events at the business.
+  - Both divisions contain links to relevant pages on the website, coloured in red to draw the users attention and with hover elements to indicate interactivity.
+
+![Screenshot of the about us section](assets/images/about-us.png)
+
 - Menu
-- Booking
+
+  - This section offers a menu of milkshakes that can be ordered at the business with prices included on each item.
+  - Images accompanying the menu offer the user an indication of what the milkshakes available might look like.
+
+![Screenshot of the milkshake menu](assets/images/milkshake-menu.png)
+
+- Events Page
+
+  - The events page offers more information on what kind of events take place at the business and introduces other content on the page.
+  - The major events section features a carousel that goes into more details on the three games that the business hosts regular tournaments of.
+  - Each slide of the carousel introduces the game and offers a link to an official game for users who want to learn more.
+  - The carousel can be navigated by the icons below the carousel that are coloured in red to draw the attention of the user and have a hover element to indicate they can be interacted with.
+
+![Screenshot of the events page](assets/images/events-page.png)
+
+- Event Calendar
+
+  - The events calendar provides the user with information on events taking place at the business over the next 5 months.
+  - Each month is broken down into the dates and a description of what the event is.
+
+![Screenshot of the event calendar on the events page](assets/images/event-calendar.png)
+
+- Booking Form
+
+  - The booking page provides a form for the user to fill in their details in order to book a table at the business.
+  - The form collects the name, email, number of people attending and the date of the visit from the user.
+  - The form also allows the user whether to opt in or out of being contacted by the business about events and special offers.
+  - The form provides a comment field for any additional requests the user may have.
+  - The form is currently a dummy form and as such won't collect any information via get or post methods.
+  - The submit button carries the user to a separate page thanking them for their interest and informing them they will receive a confirmation email.
+
+![Screenshot of the booking form](assets/images/booking-form.png)
+
+- Map and Address
+
+  - This section includes an interactive Google maps location to aid the user in locating the business.
+  - The address, opening times and an email address for the business can also be found in this section.
+
+![Screenshot of the Google map and business contact details](assets/images/map-and-address.png)
+
+- Footer
+
+  - The footer of the website provides the copyright information and three links.
+  - Two links are provided that will bring the user to the map and contact details section of the website from any page.
+  - The 'Back to the top' button will scroll each website page back to the top of the content.
+
+![Screenshot of the website footer](assets/images/footer-bar.png)
 
 ## Testing
 
