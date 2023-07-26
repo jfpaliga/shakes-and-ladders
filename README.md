@@ -89,10 +89,12 @@ to book out seats at the store to generate revenue.
 
 ## Testing
 
-- Check different browsers and responsive design.
-- Check readability.
-- Check links.
-- Check form entry.
+- I have tested that each page of the website and it's features works on the following browsers: Chrome, Edge, Firefox.
+- I have confirmed that each page is responsive, looks good and functions on all screen sizes by using the browser developer tools.
+- I have confirmed that all text is readable and understandable.
+- I have confirmed that all links are working as intended.
+- I have confirmed that the form validation works: the form cannot be submitted unless a name, email, party size and date is provided and the email field will only accept an email.
+- As the form is only a dummy, the submit button will take the user to a confirmation page but the information is not stored.
 
 ### Validator Testing
 
