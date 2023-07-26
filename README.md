@@ -119,13 +119,25 @@ to book out seats at the store to generate revenue.
 
 ## Bugs
 
-Fixed and unfixed.
+- Resolved bugs
 
-z-index on events page breaking links
+  - On implementing the burger nav menu, I found that the menu wouldn't display properly on the events page.
+  - I concluded that this was due to relative positioning and a left float being used with the events sections, so I assigned a z-index: -1 to the events-section class.
+  - This, however, caused the carousel links to become non-functional and non-interactive and so to resolve this I assigned a z-index: 0 to the major events section, which was able to fix the links whilst also allowing the burger menu to display properly.
+
+- Unresolved bugs
+
+  - There were no unresolved bugs.
 
 ## Deployment
 
-Write up GitHub deployment.
+- The website was deployed using GitHub Pages. The steps to deploy were taken as follows:
+
+  - From the GitHub repository, navigate to the Settings tab.
+  - On the nav menu on the left hand side, navigate to Pages.
+  - From the Source dropdown menu, select 'Deploy from a branch'.
+  - From the Branch dropdown menu, select 'main'.
+  - Once these have been selected, click Save and GitHub provides a link to the website.
 
 ## Credits
 
