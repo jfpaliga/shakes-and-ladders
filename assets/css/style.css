@@ -31,7 +31,6 @@ header {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-    margin: 5px 1%;
 }
 
 #logo {
@@ -65,6 +64,7 @@ header {
 #nav-div {
     width: 33%;
     order: -1;
+    padding: 5px;
 }
 
 #nav-div input[type="checkbox"],
@@ -77,10 +77,11 @@ header {
     order: 1;
     display: flex;
     justify-content: flex-end;
+    padding: 5px;
 }
 
 #social-links {
-    font-size: 140%;
+    font-size: 120%;
 }
 
 #social-links li {
@@ -613,6 +614,10 @@ footer a {
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
+
+    /* #social-links {
+        font-size: 130%;
+    } */
 
     #intro-container {
         width: 60%;
