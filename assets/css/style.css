@@ -414,36 +414,21 @@ footer a {
     background-size: cover;
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 
 #booking-form form {
-    background-color: rgba(177, 200, 179, 0.7);
-    width: 50%;
-    margin: 5px;
-    border-radius: 5%;
-}
-
-form {
+    background-color: rgba(177, 200, 179, 0.8);
+    border-radius: 3%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
+    padding: 0 10px;
 }
 
 .form-contact-details {
     border: 1px solid #3d4055;
     padding: 5px;
-    margin: 5px;
-    width: 66%;
-}
-
-.form-input {
-    padding: 5px;
-    margin: 5px;
-}
-
-#form-name {
-    margin-top: 10px;
 }
 
 #form-party-size {
@@ -455,28 +440,27 @@ form {
 
 #form-date {
     padding: 5px;
-    margin: 5px;
 }
 
 #form-comments {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 #comment-box {
     border: 1px solid #3d4055;
     height: 200px;
-    width: 300px;
 }
 
 #form-submit {
     background-color: #c84741;
     color: #fbfaf8;
-    padding: 10px;
-    border-radius: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
     border: 2px solid #c84741;
     margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 #form-submit:hover {
@@ -493,6 +477,8 @@ form {
 
 #location {
     width: 50%;
+    padding: 5px;
+    background-color: #bfbdba;
 }
 
 #location-map {
@@ -515,7 +501,6 @@ form {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    margin: 10px;
     text-align: center;
 }
 
@@ -652,13 +637,29 @@ form {
         display: none;
     }
 
-    #booking-form form {
-        width: 75%;
-    }
-
     #game-pieces-img {
         width: 300px;
         height: 450px;
+    }
+
+    #map-and-directions {
+        flex-direction: column;
+    }
+
+    #location {
+        width: 100%;
+        height: 50%;
+    }
+
+    #address-and-contact {
+        width: 100%;
+        height: 50%;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    .info-text {
+        justify-content: flex-start;
     }
 
 }
@@ -753,11 +754,6 @@ form {
 
     .month li {
         font-size: 80%;
-    }
-
-    #comment-box {
-        height: 150px;
-        width: 200px;
     }
 
     .info-text h2 {

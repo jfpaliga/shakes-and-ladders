@@ -78,10 +78,10 @@
     <!-- Booking Form -->
     <section id="booking-form">
         <form action="form-complete.html">
-            <input id="form-name" class="form-contact-details" type="text" name="name" placeholder="Name" required>
+            <input class="form-contact-details" type="text" name="name" placeholder="Name" required>
             <input class="form-contact-details" type="email" name="email" placeholder="Email" required>
 
-            <fieldset id="form-party-size" class="form-input">
+            <fieldset id="form-party-size">
                 <legend>How many are in your party?</legend>
                 <label for="form-party-one">1</label>
                 <input id="form-party-one" type="radio" name="party-size" value="1" required>
@@ -93,24 +93,23 @@
                 <input id="form-party-four" type="radio" name="party-size" value="8+">
             </fieldset>
 
-            <div class="form-input">
+            <div>
                 <label for="form-date">Date attending:</label>
                 <input id="form-date" type="date" name="date" min="2023-01-01" max="2023-12-31" required>
             </div>
 
-            <div class="form-input">
-                <label for="form-event-consent">I wish to be contacted by Shakes & Ladders in relation to events at the
-                    store: </label>
+            <div>
+                <label for="form-event-consent">I wish to be contacted in relation to events: </label>
                 <input id="form-event-consent" type="checkbox" name="event-consent">
             </div>
 
-            <div class="form-input">
-                <label for="form-offers-consent">I wish to be contacted by Shakes & Ladders in relation to special
-                    offers at the store: </label>
+            <div>
+                <label for="form-offers-consent">I wish to be contacted in relation to special
+                    offers: </label>
                 <input id="form-offers-consent" type="checkbox" name="offers-consent">
             </div>
 
-            <div id="form-comments" class="form-input">
+            <div id="form-comments">
                 <label for="comment-box">Additional comments:</label>
                 <textarea id="comment-box" name="comments"></textarea>
             </div>
